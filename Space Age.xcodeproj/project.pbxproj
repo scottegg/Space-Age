@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBB8C47C1C22469800A97CA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8C47B1C22469800A97CA0 /* AppDelegate.swift */; };
+		DBB8C47E1C22469800A97CA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8C47D1C22469800A97CA0 /* ViewController.swift */; };
+		DBB8C4811C22469800A97CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB8C47F1C22469800A97CA0 /* Main.storyboard */; };
+		DBB8C4831C22469800A97CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB8C4821C22469800A97CA0 /* Assets.xcassets */; };
+		DBB8C4861C22469800A97CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB8C4841C22469800A97CA0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBB8C4781C22469800A97CA0 /* Space Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB8C47B1C22469800A97CA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBB8C47D1C22469800A97CA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBB8C4801C22469800A97CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBB8C4821C22469800A97CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBB8C4851C22469800A97CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBB8C4871C22469800A97CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB8C4751C22469800A97CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBB8C46F1C22469800A97CA0 = {
+			isa = PBXGroup;
+			children = (
+				DBB8C47A1C22469800A97CA0 /* Space Age */,
+				DBB8C4791C22469800A97CA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB8C4791C22469800A97CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB8C4781C22469800A97CA0 /* Space Age.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB8C47A1C22469800A97CA0 /* Space Age */ = {
+			isa = PBXGroup;
+			children = (
+				DBB8C47B1C22469800A97CA0 /* AppDelegate.swift */,
+				DBB8C47D1C22469800A97CA0 /* ViewController.swift */,
+				DBB8C47F1C22469800A97CA0 /* Main.storyboard */,
+				DBB8C4821C22469800A97CA0 /* Assets.xcassets */,
+				DBB8C4841C22469800A97CA0 /* LaunchScreen.storyboard */,
+				DBB8C4871C22469800A97CA0 /* Info.plist */,
+			);
+			path = "Space Age";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB8C4771C22469800A97CA0 /* Space Age */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB8C48A1C22469800A97CA0 /* Build configuration list for PBXNativeTarget "Space Age" */;
+			buildPhases = (
+				DBB8C4741C22469800A97CA0 /* Sources */,
+				DBB8C4751C22469800A97CA0 /* Frameworks */,
+				DBB8C4761C22469800A97CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Age";
+			productName = "Space Age";
+			productReference = DBB8C4781C22469800A97CA0 /* Space Age.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB8C4701C22469800A97CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Scott Eggleston";
+				TargetAttributes = {
+					DBB8C4771C22469800A97CA0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DBB8C4731C22469800A97CA0 /* Build configuration list for PBXProject "Space Age" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBB8C46F1C22469800A97CA0;
+			productRefGroup = DBB8C4791C22469800A97CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB8C4771C22469800A97CA0 /* Space Age */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBB8C4761C22469800A97CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB8C4861C22469800A97CA0 /* LaunchScreen.storyboard in Resources */,
+				DBB8C4831C22469800A97CA0 /* Assets.xcassets in Resources */,
+				DBB8C4811C22469800A97CA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB8C4741C22469800A97CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB8C47E1C22469800A97CA0 /* ViewController.swift in Sources */,
+				DBB8C47C1C22469800A97CA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBB8C47F1C22469800A97CA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB8C4801C22469800A97CA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBB8C4841C22469800A97CA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB8C4851C22469800A97CA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBB8C4881C22469800A97CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBB8C4891C22469800A97CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBB8C48B1C22469800A97CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Space Age/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scotteggleston.Space-Age";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBB8C48C1C22469800A97CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Space Age/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scotteggleston.Space-Age";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB8C4731C22469800A97CA0 /* Build configuration list for PBXProject "Space Age" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB8C4881C22469800A97CA0 /* Debug */,
+				DBB8C4891C22469800A97CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB8C48A1C22469800A97CA0 /* Build configuration list for PBXNativeTarget "Space Age" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB8C48B1C22469800A97CA0 /* Debug */,
+				DBB8C48C1C22469800A97CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB8C4701C22469800A97CA0 /* Project object */;
+}
