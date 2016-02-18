@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB4716C71C3CA8DF006AC66E /* PlanetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4716C61C3CA8DF006AC66E /* PlanetCollection.swift */; };
 		DBB8C47C1C22469800A97CA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8C47B1C22469800A97CA0 /* AppDelegate.swift */; };
 		DBB8C47E1C22469800A97CA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8C47D1C22469800A97CA0 /* ViewController.swift */; };
 		DBB8C4811C22469800A97CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB8C47F1C22469800A97CA0 /* Main.storyboard */; };
 		DBB8C4831C22469800A97CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB8C4821C22469800A97CA0 /* Assets.xcassets */; };
 		DBB8C4861C22469800A97CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB8C4841C22469800A97CA0 /* LaunchScreen.storyboard */; };
+		DBF7701B1C3CA5B4004A413B /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF7701A1C3CA5B4004A413B /* Planet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB4716C61C3CA8DF006AC66E /* PlanetCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetCollection.swift; sourceTree = "<group>"; };
 		DBB8C4781C22469800A97CA0 /* Space Age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Age.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB8C47B1C22469800A97CA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBB8C47D1C22469800A97CA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,8 @@
 		DBB8C4821C22469800A97CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBB8C4851C22469800A97CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBB8C4871C22469800A97CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB8C48D1C224CA400A97CA0 /* ageConversion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ageConversion.playground; sourceTree = "<group>"; };
+		DBF7701A1C3CA5B4004A413B /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,9 @@
 				DBB8C4821C22469800A97CA0 /* Assets.xcassets */,
 				DBB8C4841C22469800A97CA0 /* LaunchScreen.storyboard */,
 				DBB8C4871C22469800A97CA0 /* Info.plist */,
+				DBB8C48D1C224CA400A97CA0 /* ageConversion.playground */,
+				DBF7701A1C3CA5B4004A413B /* Planet.swift */,
+				DB4716C61C3CA8DF006AC66E /* PlanetCollection.swift */,
 			);
 			path = "Space Age";
 			sourceTree = "<group>";
@@ -96,6 +104,7 @@
 				TargetAttributes = {
 					DBB8C4771C22469800A97CA0 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 23F7F2KD2A;
 					};
 				};
 			};
@@ -135,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF7701B1C3CA5B4004A413B /* Planet.swift in Sources */,
+				DB4716C71C3CA8DF006AC66E /* PlanetCollection.swift in Sources */,
 				DBB8C47E1C22469800A97CA0 /* ViewController.swift in Sources */,
 				DBB8C47C1C22469800A97CA0 /* AppDelegate.swift in Sources */,
 			);
@@ -247,6 +258,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Space Age/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.scotteggleston.Space-Age";
@@ -258,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Space Age/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.scotteggleston.Space-Age";
@@ -284,6 +297,7 @@
 				DBB8C48C1C22469800A97CA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
